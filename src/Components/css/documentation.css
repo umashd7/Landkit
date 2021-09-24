@@ -1,0 +1,49 @@
+.doc-info-3 {
+  color: #869ab8;
+  font-size: 1.2rem;
+}
+.doc-info4 {
+  font-size: 1rem;
+  color: black;
+  margin: 0px;
+}
+.doc-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 0px;
+  margin-bottom: 20px;
+  float: right;
+  column-gap: 15px;
+}
+.img-1 {
+  transform: rotateY(-35deg) rotateX(15deg);
+  float: right;
+}
+
+.doc-content-container {
+  margin: 80px 0px 0px 120px;
+  display: flex;
+  flex-direction: row;
+}
+.doc-img-container {
+  width: 100%;
+}
+div > p {
+  color: #0d6efd;
+  font-size: 1.8rem;
+  margin-top: 5px;
+}
+.doc-back {
+  margin: 20px 40px;
+  float: right;
+  background-color: #0d6efd;
+  color: #f9fbfd;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-weight: 600;
+  height: 40px;
+  width: 110px;
+}
